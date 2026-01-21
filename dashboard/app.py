@@ -1,9 +1,12 @@
+import os
+import sys
 import streamlit as st
 import pandas as pd
-import sys
 import matplotlib.pyplot as plt
 
-sys.path.append("../")
+# --- FIX PATH FOR STREAMLIT CLOUD ---
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+sys.path.insert(0, ROOT_DIR)
 
 from src.preprocessing import clean_text
 from src.sentiment import get_sentiment_score, get_sentiment_label

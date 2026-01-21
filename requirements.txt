@@ -5,3 +5,4 @@ nltk
 vaderSentiment
 plotly
 streamlit
+matplotlib

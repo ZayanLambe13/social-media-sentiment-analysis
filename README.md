@@ -79,7 +79,24 @@ dashboard/app.py
 
 ## 🚀 How to Run the Project
 
-### 1️⃣ Install dependencies
-```bash
+ 1. Install dependencies
+
 pip install -r requirements.txt
 
+---
+
+2. Run the dashboard
+
+streamlit run dashboard/app.py
+
+---
+
+🎯 Key Learnings
+
+1. Separation of offline analysis and real-time applications
+
+2. Text preprocessing and sentiment scoring using NLP
+
+3. Building reactive dashboards with Streamlit session state
+
+4. Clean project structuring for reproducibility
